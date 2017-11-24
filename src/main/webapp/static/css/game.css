@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+.js-game-window {
+	border-style: solid;
+	width: 80%;
+	height: 80%;
+	left: 0px;
+	display: inline-block;
+	margin-left: 0%;
+	margin-top: 0%;
+	position: relative;
+	overflow-y: auto
+}
+
+.js-game-content {
+	position: absolute;
+	bottom: 0;
+	left: 0
+}
+
+.test {
+	color: red;
+}
+
+/*--HEALTH PROGRESS BAR -->*/
+.js-container-left {
+	width: 200px;
+	position: absolute;
+	left: 0px;
+	top: 19px;
+	margin-top: auto;
+}
+
+.js-container-right {
+	width: 200px;
+	position: absolute;
+	right: 0px;
+	top: 19px;
+	margin-top: auto;
+	margin-right: 20%
+}
+
+.progress-bar {
+	background-color: rgba(237, 88, 35, 0.99);
+}
+
+.progress {
+	background-color: silver;
+}
+
+.js-game-connect {
+	display: block;
+	margin: 0 auto;
+	width: 10%;
+}
